@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	color: #3a3939
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -84,7 +85,7 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("../../images/bg.jpg"), url("../../images/bg-alt.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1747,8 +1748,8 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
-		color: #fff;
+		background: #b3b3ff;
+		color: #000000;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
 		text-decoration: none;
@@ -1772,7 +1773,7 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			color: #3a3939;
+			color: #000000;
 			background: #fff;
 			box-shadow: inset 0 0 0 1px #fff;
 		}
@@ -1782,9 +1783,9 @@ input, select, textarea {
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				background: rgba(255, 255, 255, 0.1);
+				background: rgba(0, 0, 0, 0.5);
 				color: #fff !important;
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
+				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.5) !important;
 			}
 
 		input[type="button"].style3,
@@ -1820,7 +1821,7 @@ input, select, textarea {
 			top: -9em;
 			left: 50%;
 			height: 9em;
-			border-left: solid 1px #fff;
+			border-left: solid 1px #000000;
 		}
 
 		.box:before {
@@ -1851,7 +1852,7 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #f4f4f4;
 				overflow: hidden;
 			}
 
@@ -1919,7 +1920,7 @@ input, select, textarea {
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					border-left: solid 1px #000000;
 				}
 
 				.box.style2 .inner .row {
@@ -1995,7 +1996,7 @@ input, select, textarea {
 		-ms-transition: opacity 2s ease-in-out;
 		transition: opacity 2s ease-in-out;
 		position: relative;
-		color: #fff;
+		color: #ffb3bf;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
@@ -2015,8 +2016,8 @@ input, select, textarea {
 			}
 
 			#header header p {
-				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
+				border-top: solid 1px rgba(0, 0, 0, 0.5);
+				/*color: rgba(255, 255, 255, 0.75);*/
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -2028,7 +2029,7 @@ input, select, textarea {
 				#header header p:before {
 					content: '';
 					display: block;
-					border-top: solid 1px rgba(255, 255, 255, 0.5);
+					border-top: solid 1px rgba(0, 0, 0, 0.5);
 					margin: 4px 0 0.8em 0;
 				}
 
@@ -2054,7 +2055,7 @@ input, select, textarea {
 				bottom: -9em;
 				left: 50%;
 				height: 9em;
-				border-left: solid 1px #fff;
+				border-left: solid 1px #000000;
 			}
 
 			#header footer:before {
@@ -2089,14 +2090,14 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #FFB6C1 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: #000000;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2131,7 +2132,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #fff;
+		color: #000;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 4.5em 0 0 0;
@@ -2144,11 +2145,11 @@ input, select, textarea {
 			top: -4.5em;
 			left: 50%;
 			height: 4.5em;
-			border-left: solid 1px #fff;
+			border-left: solid 1px #000;
 		}
 
 		#footer a {
-			color: #fff;
+			color: #000000;
 			text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
@@ -2352,7 +2353,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: url("../../images/bg-alt.jpg"), url("../../images/bg.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;
